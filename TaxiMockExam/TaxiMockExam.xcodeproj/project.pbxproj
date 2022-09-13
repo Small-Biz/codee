@@ -1,0 +1,625 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		71BDC61E23CC38AD00A2B372 /* ResultTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 71BDC61C23CC38AD00A2B372 /* ResultTableViewCell.xib */; };
+		71C30C5923CEA26400C323D1 /* ResultTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71C30C5823CEA26400C323D1 /* ResultTableViewCell.swift */; };
+		71CFF5FF23CB05D2009A8BEE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71CFF5FE23CB05D2009A8BEE /* AppDelegate.swift */; };
+		71CFF60123CB05D2009A8BEE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71CFF60023CB05D2009A8BEE /* SceneDelegate.swift */; };
+		71CFF60323CB05D2009A8BEE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71CFF60223CB05D2009A8BEE /* ViewController.swift */; };
+		71CFF60623CB05D2009A8BEE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71CFF60423CB05D2009A8BEE /* Main.storyboard */; };
+		71CFF60823CB05D8009A8BEE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 71CFF60723CB05D8009A8BEE /* Assets.xcassets */; };
+		71CFF60B23CB05D8009A8BEE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71CFF60923CB05D8009A8BEE /* LaunchScreen.storyboard */; };
+		71CFF61623CB05D9009A8BEE /* TaxiMockExamTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71CFF61523CB05D9009A8BEE /* TaxiMockExamTests.swift */; };
+		71CFF62123CB05D9009A8BEE /* TaxiMockExamUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71CFF62023CB05D9009A8BEE /* TaxiMockExamUITests.swift */; };
+		71CFF62F23CB84E9009A8BEE /* Manager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71CFF62E23CB84E9009A8BEE /* Manager.swift */; };
+		71CFF63123CB8938009A8BEE /* ExamViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71CFF63023CB8938009A8BEE /* ExamViewController.swift */; };
+		71CFF63323CB894B009A8BEE /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71CFF63223CB894B009A8BEE /* ResultViewController.swift */; };
+		71FB91B123D22EB200A62D57 /* AnswerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71FB91AF23D22EB200A62D57 /* AnswerTableViewCell.swift */; };
+		71FB91B223D22EB200A62D57 /* AnswerTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 71FB91B023D22EB200A62D57 /* AnswerTableViewCell.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		71CFF61223CB05D9009A8BEE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 71CFF5F323CB05D2009A8BEE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 71CFF5FA23CB05D2009A8BEE;
+			remoteInfo = TaxiMockExam;
+		};
+		71CFF61D23CB05D9009A8BEE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 71CFF5F323CB05D2009A8BEE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 71CFF5FA23CB05D2009A8BEE;
+			remoteInfo = TaxiMockExam;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		71BDC61C23CC38AD00A2B372 /* ResultTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ResultTableViewCell.xib; sourceTree = "<group>"; };
+		71C30C5823CEA26400C323D1 /* ResultTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultTableViewCell.swift; sourceTree = "<group>"; };
+		71CFF5FB23CB05D2009A8BEE /* TaxiMockExam.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TaxiMockExam.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		71CFF5FE23CB05D2009A8BEE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		71CFF60023CB05D2009A8BEE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		71CFF60223CB05D2009A8BEE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		71CFF60523CB05D2009A8BEE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		71CFF60723CB05D8009A8BEE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		71CFF60A23CB05D8009A8BEE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		71CFF60C23CB05D8009A8BEE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		71CFF61123CB05D9009A8BEE /* TaxiMockExamTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TaxiMockExamTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		71CFF61523CB05D9009A8BEE /* TaxiMockExamTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaxiMockExamTests.swift; sourceTree = "<group>"; };
+		71CFF61723CB05D9009A8BEE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		71CFF61C23CB05D9009A8BEE /* TaxiMockExamUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TaxiMockExamUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		71CFF62023CB05D9009A8BEE /* TaxiMockExamUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaxiMockExamUITests.swift; sourceTree = "<group>"; };
+		71CFF62223CB05D9009A8BEE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		71CFF62E23CB84E9009A8BEE /* Manager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Manager.swift; sourceTree = "<group>"; };
+		71CFF63023CB8938009A8BEE /* ExamViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExamViewController.swift; sourceTree = "<group>"; };
+		71CFF63223CB894B009A8BEE /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
+		71FB91AF23D22EB200A62D57 /* AnswerTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnswerTableViewCell.swift; sourceTree = "<group>"; };
+		71FB91B023D22EB200A62D57 /* AnswerTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AnswerTableViewCell.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		71CFF5F823CB05D2009A8BEE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71CFF60E23CB05D9009A8BEE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71CFF61923CB05D9009A8BEE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		71CFF5F223CB05D2009A8BEE = {
+			isa = PBXGroup;
+			children = (
+				71CFF5FD23CB05D2009A8BEE /* TaxiMockExam */,
+				71CFF61423CB05D9009A8BEE /* TaxiMockExamTests */,
+				71CFF61F23CB05D9009A8BEE /* TaxiMockExamUITests */,
+				71CFF5FC23CB05D2009A8BEE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		71CFF5FC23CB05D2009A8BEE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				71CFF5FB23CB05D2009A8BEE /* TaxiMockExam.app */,
+				71CFF61123CB05D9009A8BEE /* TaxiMockExamTests.xctest */,
+				71CFF61C23CB05D9009A8BEE /* TaxiMockExamUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		71CFF5FD23CB05D2009A8BEE /* TaxiMockExam */ = {
+			isa = PBXGroup;
+			children = (
+				71CFF5FE23CB05D2009A8BEE /* AppDelegate.swift */,
+				71CFF60023CB05D2009A8BEE /* SceneDelegate.swift */,
+				71CFF60223CB05D2009A8BEE /* ViewController.swift */,
+				71CFF60423CB05D2009A8BEE /* Main.storyboard */,
+				71CFF60723CB05D8009A8BEE /* Assets.xcassets */,
+				71CFF60923CB05D8009A8BEE /* LaunchScreen.storyboard */,
+				71CFF60C23CB05D8009A8BEE /* Info.plist */,
+				71CFF62E23CB84E9009A8BEE /* Manager.swift */,
+				71CFF63023CB8938009A8BEE /* ExamViewController.swift */,
+				71CFF63223CB894B009A8BEE /* ResultViewController.swift */,
+				71C30C5823CEA26400C323D1 /* ResultTableViewCell.swift */,
+				71BDC61C23CC38AD00A2B372 /* ResultTableViewCell.xib */,
+				71FB91AF23D22EB200A62D57 /* AnswerTableViewCell.swift */,
+				71FB91B023D22EB200A62D57 /* AnswerTableViewCell.xib */,
+			);
+			path = TaxiMockExam;
+			sourceTree = "<group>";
+		};
+		71CFF61423CB05D9009A8BEE /* TaxiMockExamTests */ = {
+			isa = PBXGroup;
+			children = (
+				71CFF61523CB05D9009A8BEE /* TaxiMockExamTests.swift */,
+				71CFF61723CB05D9009A8BEE /* Info.plist */,
+			);
+			path = TaxiMockExamTests;
+			sourceTree = "<group>";
+		};
+		71CFF61F23CB05D9009A8BEE /* TaxiMockExamUITests */ = {
+			isa = PBXGroup;
+			children = (
+				71CFF62023CB05D9009A8BEE /* TaxiMockExamUITests.swift */,
+				71CFF62223CB05D9009A8BEE /* Info.plist */,
+			);
+			path = TaxiMockExamUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		71CFF5FA23CB05D2009A8BEE /* TaxiMockExam */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 71CFF62523CB05D9009A8BEE /* Build configuration list for PBXNativeTarget "TaxiMockExam" */;
+			buildPhases = (
+				71CFF5F723CB05D2009A8BEE /* Sources */,
+				71CFF5F823CB05D2009A8BEE /* Frameworks */,
+				71CFF5F923CB05D2009A8BEE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TaxiMockExam;
+			productName = TaxiMockExam;
+			productReference = 71CFF5FB23CB05D2009A8BEE /* TaxiMockExam.app */;
+			productType = "com.apple.product-type.application";
+		};
+		71CFF61023CB05D9009A8BEE /* TaxiMockExamTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 71CFF62823CB05D9009A8BEE /* Build configuration list for PBXNativeTarget "TaxiMockExamTests" */;
+			buildPhases = (
+				71CFF60D23CB05D9009A8BEE /* Sources */,
+				71CFF60E23CB05D9009A8BEE /* Frameworks */,
+				71CFF60F23CB05D9009A8BEE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				71CFF61323CB05D9009A8BEE /* PBXTargetDependency */,
+			);
+			name = TaxiMockExamTests;
+			productName = TaxiMockExamTests;
+			productReference = 71CFF61123CB05D9009A8BEE /* TaxiMockExamTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		71CFF61B23CB05D9009A8BEE /* TaxiMockExamUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 71CFF62B23CB05D9009A8BEE /* Build configuration list for PBXNativeTarget "TaxiMockExamUITests" */;
+			buildPhases = (
+				71CFF61823CB05D9009A8BEE /* Sources */,
+				71CFF61923CB05D9009A8BEE /* Frameworks */,
+				71CFF61A23CB05D9009A8BEE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				71CFF61E23CB05D9009A8BEE /* PBXTargetDependency */,
+			);
+			name = TaxiMockExamUITests;
+			productName = TaxiMockExamUITests;
+			productReference = 71CFF61C23CB05D9009A8BEE /* TaxiMockExamUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		71CFF5F323CB05D2009A8BEE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = HeeSolutionsLimited;
+				TargetAttributes = {
+					71CFF5FA23CB05D2009A8BEE = {
+						CreatedOnToolsVersion = 11.3;
+					};
+					71CFF61023CB05D9009A8BEE = {
+						CreatedOnToolsVersion = 11.3;
+						TestTargetID = 71CFF5FA23CB05D2009A8BEE;
+					};
+					71CFF61B23CB05D9009A8BEE = {
+						CreatedOnToolsVersion = 11.3;
+						TestTargetID = 71CFF5FA23CB05D2009A8BEE;
+					};
+				};
+			};
+			buildConfigurationList = 71CFF5F623CB05D2009A8BEE /* Build configuration list for PBXProject "TaxiMockExam" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 71CFF5F223CB05D2009A8BEE;
+			productRefGroup = 71CFF5FC23CB05D2009A8BEE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				71CFF5FA23CB05D2009A8BEE /* TaxiMockExam */,
+				71CFF61023CB05D9009A8BEE /* TaxiMockExamTests */,
+				71CFF61B23CB05D9009A8BEE /* TaxiMockExamUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		71CFF5F923CB05D2009A8BEE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71CFF60B23CB05D8009A8BEE /* LaunchScreen.storyboard in Resources */,
+				71CFF60823CB05D8009A8BEE /* Assets.xcassets in Resources */,
+				71FB91B223D22EB200A62D57 /* AnswerTableViewCell.xib in Resources */,
+				71BDC61E23CC38AD00A2B372 /* ResultTableViewCell.xib in Resources */,
+				71CFF60623CB05D2009A8BEE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71CFF60F23CB05D9009A8BEE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71CFF61A23CB05D9009A8BEE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		71CFF5F723CB05D2009A8BEE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71CFF60323CB05D2009A8BEE /* ViewController.swift in Sources */,
+				71CFF5FF23CB05D2009A8BEE /* AppDelegate.swift in Sources */,
+				71C30C5923CEA26400C323D1 /* ResultTableViewCell.swift in Sources */,
+				71CFF60123CB05D2009A8BEE /* SceneDelegate.swift in Sources */,
+				71CFF62F23CB84E9009A8BEE /* Manager.swift in Sources */,
+				71CFF63123CB8938009A8BEE /* ExamViewController.swift in Sources */,
+				71CFF63323CB894B009A8BEE /* ResultViewController.swift in Sources */,
+				71FB91B123D22EB200A62D57 /* AnswerTableViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71CFF60D23CB05D9009A8BEE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71CFF61623CB05D9009A8BEE /* TaxiMockExamTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71CFF61823CB05D9009A8BEE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71CFF62123CB05D9009A8BEE /* TaxiMockExamUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		71CFF61323CB05D9009A8BEE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 71CFF5FA23CB05D2009A8BEE /* TaxiMockExam */;
+			targetProxy = 71CFF61223CB05D9009A8BEE /* PBXContainerItemProxy */;
+		};
+		71CFF61E23CB05D9009A8BEE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 71CFF5FA23CB05D2009A8BEE /* TaxiMockExam */;
+			targetProxy = 71CFF61D23CB05D9009A8BEE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		71CFF60423CB05D2009A8BEE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				71CFF60523CB05D2009A8BEE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		71CFF60923CB05D8009A8BEE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				71CFF60A23CB05D8009A8BEE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		71CFF62323CB05D9009A8BEE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		71CFF62423CB05D9009A8BEE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		71CFF62623CB05D9009A8BEE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-HEE";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 14;
+				DEVELOPMENT_TEAM = 3Z54U92K35;
+				INFOPLIST_FILE = TaxiMockExam/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hee.test;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		71CFF62723CB05D9009A8BEE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-HEE";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 14;
+				DEVELOPMENT_TEAM = 3Z54U92K35;
+				INFOPLIST_FILE = TaxiMockExam/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hee.test;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		71CFF62923CB05D9009A8BEE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3Z54U92K35;
+				INFOPLIST_FILE = TaxiMockExamTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hee.taximockexam.TaxiMockExamTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TaxiMockExam.app/TaxiMockExam";
+			};
+			name = Debug;
+		};
+		71CFF62A23CB05D9009A8BEE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3Z54U92K35;
+				INFOPLIST_FILE = TaxiMockExamTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hee.taximockexam.TaxiMockExamTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TaxiMockExam.app/TaxiMockExam";
+			};
+			name = Release;
+		};
+		71CFF62C23CB05D9009A8BEE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3Z54U92K35;
+				INFOPLIST_FILE = TaxiMockExamUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hee.taximockexam.TaxiMockExamUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TaxiMockExam;
+			};
+			name = Debug;
+		};
+		71CFF62D23CB05D9009A8BEE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3Z54U92K35;
+				INFOPLIST_FILE = TaxiMockExamUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hee.taximockexam.TaxiMockExamUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TaxiMockExam;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		71CFF5F623CB05D2009A8BEE /* Build configuration list for PBXProject "TaxiMockExam" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71CFF62323CB05D9009A8BEE /* Debug */,
+				71CFF62423CB05D9009A8BEE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		71CFF62523CB05D9009A8BEE /* Build configuration list for PBXNativeTarget "TaxiMockExam" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71CFF62623CB05D9009A8BEE /* Debug */,
+				71CFF62723CB05D9009A8BEE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		71CFF62823CB05D9009A8BEE /* Build configuration list for PBXNativeTarget "TaxiMockExamTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71CFF62923CB05D9009A8BEE /* Debug */,
+				71CFF62A23CB05D9009A8BEE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		71CFF62B23CB05D9009A8BEE /* Build configuration list for PBXNativeTarget "TaxiMockExamUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71CFF62C23CB05D9009A8BEE /* Debug */,
+				71CFF62D23CB05D9009A8BEE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 71CFF5F323CB05D2009A8BEE /* Project object */;
+}

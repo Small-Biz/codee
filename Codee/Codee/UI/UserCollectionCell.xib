@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="KOMIKAX_.ttf">
+            <string>KomikaAxis</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="UserCollectionCell" customModule="Codee" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="327" height="50"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="327" height="50"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="n2P-2d-ueS">
+                        <rect key="frame" x="8" y="14.5" width="311" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="21" id="XLr-Yh-roK"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="KomikaAxis" family="Komika Axis" pointSize="22"/>
+                        <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="n2P-2d-ueS" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="8" id="Ogv-46-yYh"/>
+                <constraint firstItem="n2P-2d-ueS" firstAttribute="centerY" secondItem="gTV-IL-0wX" secondAttribute="centerY" id="oJx-QZ-oGW"/>
+                <constraint firstAttribute="trailing" secondItem="n2P-2d-ueS" secondAttribute="trailing" constant="8" id="ods-SC-SWX"/>
+            </constraints>
+            <size key="customSize" width="327" height="50"/>
+            <connections>
+                <outlet property="nameLabel" destination="n2P-2d-ueS" id="vjB-wl-BkL"/>
+            </connections>
+            <point key="canvasLocation" x="80.434782608695656" y="71.651785714285708"/>
+        </collectionViewCell>
+    </objects>
+</document>

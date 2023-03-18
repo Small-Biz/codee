@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="KOMIKAX_.ttf">
+            <string>KomikaAxis</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="" id="gTV-IL-0wX" customClass="TaskMenuCollectionCell" customModule="Codee" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="343" height="80"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="343" height="80"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="NjM-6e-Tj5">
+                        <rect key="frame" x="0.0" y="0.0" width="343" height="80"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="-" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8XG-cL-zbQ">
+                                <rect key="frame" x="8" y="20" width="200" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="iAb-31-LdH"/>
+                                    <constraint firstAttribute="width" constant="200" id="vxh-1m-gPA"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="KomikaAxis" family="Komika Axis" pointSize="22"/>
+                                <color key="textColor" systemColor="systemGrayColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icon_tick.png" translatesAutoresizingMaskIntoConstraints="NO" id="ETV-hQ-LPI">
+                                <rect key="frame" x="265" y="5" width="70" height="70"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="ETV-hQ-LPI" secondAttribute="height" multiplier="1:1" id="xOO-j6-hL9"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemOrangeColor"/>
+                        <constraints>
+                            <constraint firstItem="8XG-cL-zbQ" firstAttribute="centerY" secondItem="NjM-6e-Tj5" secondAttribute="centerY" id="0PT-4x-SOd"/>
+                            <constraint firstItem="ETV-hQ-LPI" firstAttribute="top" secondItem="NjM-6e-Tj5" secondAttribute="top" constant="5" id="R3a-Qh-EGF"/>
+                            <constraint firstAttribute="width" constant="343" id="kca-q5-i9q"/>
+                            <constraint firstAttribute="trailing" secondItem="ETV-hQ-LPI" secondAttribute="trailing" constant="8" id="koB-Lc-Pky"/>
+                            <constraint firstItem="8XG-cL-zbQ" firstAttribute="leading" secondItem="NjM-6e-Tj5" secondAttribute="leading" constant="8" id="mg3-xn-RNs"/>
+                            <constraint firstItem="ETV-hQ-LPI" firstAttribute="centerY" secondItem="NjM-6e-Tj5" secondAttribute="centerY" id="n4C-cS-ver"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <constraints>
+                <constraint firstItem="NjM-6e-Tj5" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="3xQ-Jb-Kmj"/>
+                <constraint firstAttribute="bottom" secondItem="NjM-6e-Tj5" secondAttribute="bottom" id="VKb-2m-4kR"/>
+                <constraint firstItem="NjM-6e-Tj5" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="g97-3c-kYB"/>
+            </constraints>
+            <size key="customSize" width="343" height="80"/>
+            <connections>
+                <outlet property="badgeImage" destination="ETV-hQ-LPI" id="WDu-FY-ogd"/>
+                <outlet property="titleLabel" destination="8XG-cL-zbQ" id="cE8-5P-vtv"/>
+            </connections>
+            <point key="canvasLocation" x="94.927536231884062" y="47.544642857142854"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="icon_tick.png" width="624" height="640"/>
+        <systemColor name="systemGrayColor">
+            <color red="0.55686274509803924" green="0.55686274509803924" blue="0.57647058823529407" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemOrangeColor">
+            <color red="1" green="0.58431372549019611" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>

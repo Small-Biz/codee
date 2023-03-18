@@ -1,0 +1,6 @@
+module Pods_Codee {
+  umbrella header "Pods-Codee-umbrella.h"
+
+  export *
+  module * { export * }
+}

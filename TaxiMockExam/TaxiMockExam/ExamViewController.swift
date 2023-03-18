@@ -26,7 +26,7 @@ class ExamViewController: UIViewController, UITableViewDelegate, UITableViewData
     
     var answerList:[String] = []
     var questionString:String = ""
-    var answerDisplayIndex:Int = 0
+    var answerDisplayIndex:Int =0
     var answerString:String = ""
     var questionRandomIndex:Int = 0
     
